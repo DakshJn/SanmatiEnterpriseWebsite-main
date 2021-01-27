@@ -1,0 +1,153 @@
+.aboutUs h1{
+    font-family: Helvetica;
+    text-align: center;
+    color: white;
+    padding-top: 9%;
+}
+
+.aboutUs{
+    background-image: linear-gradient(rgba(41, 40, 40, 0.85),rgba(0, 0, 0, 0.925)),url(../images/lab.png);
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+#heading{
+    color: orange;
+}
+
+#headingBorder {
+    border-bottom: 2px solid white;
+    align-content: center;
+    bottom: 50%;
+    width: 15%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.aboutUs p{
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    color: white;
+}
+
+.section-feature{
+    padding-top: 3%;
+    text-align: center;
+    background-color: rgb(255,224,173);
+}
+
+.section-feature h2{
+    font-family:Helvetica;
+}
+
+#whyUs-para{
+    color:black;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+}
+
+.feature-icons{
+    height: auto;
+    width: 65%;
+    padding-left: 45%;
+}
+
+h4{
+    font-family: Helvetica;
+    font-size: 20px;
+    font-weight:600;
+    color: black;
+    text-align:center;
+}
+
+
+.what-we-offer{
+    background-color: rgb(255,218,140);
+}
+
+#what-we-offer-heading{
+    font-family: Helvetica;
+    padding-top: 4%;
+    text-align: center;
+    color: black;
+}
+
+#underline-heading {
+    border-bottom: 2px solid black;
+    align-content: center;
+    bottom: 50%;
+    width: 10%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+#what-we-offer-para{
+    font-family: 'Lato',sans-serif;
+    font-size: 20px;
+}
+
+.container div{
+    text-align: justify;
+    align-content: center;
+    padding-bottom: 1%;
+    font-weight: 500;
+}
+
+#why-us-heading{
+    color: black;
+}
+
+#underline-why-us{
+    border-bottom: 2px solid black;
+    align-content: center;
+    bottom: 50%;
+    width: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.feature-icon-section{
+    text-align: right;
+}
+.navbar-light .navbar-nav .nav-link {
+   color:white;
+   font-weight: 700;
+    font-size: large;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: Helvetica;
+}
+
+.navbar-light .navbar-brand {
+    color:white;
+    font-weight: 700;
+    font-size: 40px;
+    font-family: 'Alex Brush', cursive;
+}
+
+.navbar{
+    padding:20px;
+    background-color: transparent;
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show .nav-link {
+    background-color:#148fcf;
+    color:white;
+    
+}
+
+p {
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+@media (max-width: 800px){
+    .container{
+        text-align: center;
+    }
+}
