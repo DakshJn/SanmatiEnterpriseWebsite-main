@@ -9,7 +9,7 @@ body{
     /* height: 200px; */
     justify-content: space-around;
     background-color: #f6efe8;
-    margin-top: 30px;
+    /* margin-top: 30px; */
 
 
 }
@@ -55,7 +55,7 @@ body{
 
 }
 .numbers .btn-lg{
-    margin: 50px 580px;
+    margin: 30px 580px;
 }
 
 .right img{
