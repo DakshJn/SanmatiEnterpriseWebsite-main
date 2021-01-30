@@ -3,16 +3,16 @@ body{
 }
 
 
-  #container_footer { 
+  #container_footer {
     display: flex;
-    width: 100%; 
-    height: 200px;  
+    width: 100%;
+    height: 200px;
     justify-content: space-around;
     background-color: #f6efe8;
     margin-top: 30px;
-   
-   
-} 
+
+
+}
   #container_footer div{
       width: 25%;
       padding-left: 25px;
@@ -24,7 +24,7 @@ body{
      font-weight: 700;
      font-family: Helvetica;
   }
-  
+
   .numbers h2{
       font-size: 30px;
       font-weight: 400;
@@ -50,21 +50,21 @@ body{
  .body_contain{
     display:flex;
     width: 100%;
-    height:550px;
+    height:700px;
     background-color: #f6efe8;
-  
+
 }
 .numbers .btn-lg{
     margin: 50px 580px;
 }
 
 .right img{
-    width: 670px;  
+    width: 670px;
 }
 .left{
     padding-left: 45px;
     padding-right: 60px;
-    margin-top:100px;
+    margin-top:15px;
 }
 .right{
     padding-right: 30px;
@@ -150,14 +150,14 @@ li{
   }
 
   .container{
-    
+
     height: 90vh;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
   }
-  
+
   .testimonial-card{
     min-height: 400px;
     width: 350px;
@@ -167,7 +167,7 @@ li{
     display: flex;
     flex-flow: column;
     justify-content:space-between;
-   
+
   }
   .tex{
     padding: 2.2em;
@@ -188,17 +188,17 @@ li{
     transform: translateX(-50%);
     display:flex;
     justify-content:center;
-    
+
   }
-  
+
   .footer{
     background: linear-gradient(90deg, #1a2B96 0%, #d22B96 100%);
     height: 140px;
     border-radius: 0 0 10px 10px;
     position:relative;
-    
+
   }
-  
+
   .quote{
     font-size: 400%;
     float: right;
@@ -206,7 +206,7 @@ li{
     transform: rotate(10deg) translate(-10px, -40px);
    color:#4D3FA3;
   }
-  
+
   .person{
     color:white;
     position: absolute;
@@ -228,8 +228,8 @@ li{
     }
 
     .right img{
-        width: 500px; 
-        padding-top:35px; 
+        width: 500px;
+        padding-top:35px;
     }
     h2{
         font-size: 30px;
@@ -251,8 +251,8 @@ li{
    }
 
    .right img{
-       width: 500px; 
-       padding-top:35px; 
+       width: 500px;
+       padding-top:35px;
    }
    .left h1{
        font-size:35px;
@@ -333,6 +333,6 @@ li{
         padding-bottom: 30px;
         font-size:20px;
     }
-    
+
 
  }
