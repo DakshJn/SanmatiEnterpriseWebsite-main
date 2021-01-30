@@ -218,7 +218,10 @@ li{
   }
 
   .numbers{
-    height:350px;background-color: rgb(240,248,255);margin-top: 10px; margin-bottom:80px;
+    height:350px;
+    /* background-color: rgb(240,248,255); */
+    margin-top: 10px;
+    /* margin-bottom:80px; */
   }
 
   @media (max-width: 1200px) {
