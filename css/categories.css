@@ -43,6 +43,12 @@ body{
       padding-top: 20px;
   }
 
+  .footer-sub-heading{
+      font-family: Helvetica;
+      font-weight: bold;
+      font-size: 15px;
+  }
+
   .wrapper{
     display: flex;
     position: relative;
@@ -152,3 +158,15 @@ body{
       width:100%;
     }
   }
+
+
+  @media (max-width: 1200px) {
+     .container, .product, #container_footer {
+        height: 0%;
+        flex-direction: column;
+    }
+
+    @media (max-width: 750px) {
+      .container, .product, #container_footer {
+         height: 0%;
+         flex-direction: column;
