@@ -1,9 +1,24 @@
 
+#container_footer {
+  display: flex;
+  width: 100%;
+  /* height: 200px; */
+  justify-content: space-around;
+  background-color: #f6efe8;
+  margin-top: 30px;
+
+
+}
+#container_footer div{
+    width: 25%;
+    padding-left: 25px;
+    padding-top: 20px;
+}
 
 .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show .nav-link {
     background-color:#148fcf;
     color: white;
-    
+
 }
 
 .navbar{
@@ -86,14 +101,14 @@
     width: 40%;
     padding-top:90px;
     padding-left: 50px;
-    
+
 }
 
 #body-container h2{
     font-family: Helvetica;
     font-size: 40px;
     font-weight: bold;
-    
+
 }
 
 #body-container p{
@@ -102,21 +117,21 @@
 }
 
 input[type=text], input[type=email], select, textarea {
-    padding: 12px; /* Some padding */ 
+    padding: 12px; /* Some padding */
     box-sizing: border-box; /* Make sure that padding and width stays in place */
     margin-top: 6px; /* Add a top margin */
     margin-bottom: 16px; /* Bottom margin */
-    
+
   }
 
-  #container-footer { 
+  #container-footer {
     display: flex;
-    width: 100%; 
-   height: 200px;  
+    width: 100%;
+   height: 200px;
    justify-content: space-around;
-   
-   
-} 
+
+
+}
   #container-footer div{
       width: 25%;
       padding-left: 25px;
@@ -146,7 +161,7 @@ input[type=text], input[type=email], select, textarea {
     border: none;
     box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.11);
     font-family: 'Pacifico', cursive;
-    color: #212529;	
+    color: #212529;
   }
 
   ::placeholder {
@@ -175,7 +190,7 @@ input[type=text], input[type=email], select, textarea {
       font-family: Helvetica;
   }
 
-  
+
 
   @media (max-width: 800px) {
      #body-container, #container-footer, #banner{
@@ -189,7 +204,7 @@ input[type=text], input[type=email], select, textarea {
     #banner h1{
         padding-top: 10px;
     }
-    
+
     #body-container div h3{
         padding-top: 15px;
     }
@@ -238,3 +253,14 @@ input[type=text], input[type=email], select, textarea {
     }
 
   }
+  @media (max-width: 1200px) {
+     .container, .product, #container_footer {
+        height: 0%;
+        flex-direction: column;
+    }
+
+    @media (max-width: 750px) {
+      .container, .product, #container_footer {
+         height: 0%;
+         flex-direction: column;
+     }
