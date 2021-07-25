@@ -1,11 +1,11 @@
 .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show .nav-link {
     background-color:#148fcf;
     color: white;
-    
+
 }
 
 .navbar{
-    background-color:#f6efe8;
+    background-color:#ffffff;
     padding:20px;
 }
 .navbar-brand{
